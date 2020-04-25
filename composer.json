@@ -1,0 +1,20 @@
+{
+    "name": "yhif/generate-password",
+    "description": "Generate a password",
+    "authors": [
+        {
+            "name": "戴艺辉",
+            "email": "daiyihui@100tal.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "generatePassword\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
