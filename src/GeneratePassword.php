@@ -47,11 +47,11 @@ class GeneratePassword
 		$this->special == 1 && $chars .= $this->specialString;
 
 		$result = '';
-        $max = strlen($chars) - 1;
-        for ($i = 0; $i < $this->len; $i++) {
-            $result .= $chars[rand(0, $max)];
-        }
-        return $result;
+		$max = strlen($chars) - 1;
+		for ($i = 0; $i < $this->len; $i++) {
+		    $result .= $chars[rand(0, $max)];
+		}
+		return $result;
 	}
 }
 
